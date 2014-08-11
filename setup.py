@@ -16,7 +16,7 @@ def run_setup():
         author='Aybars Badur',
         author_email='aybars.badur@gmail.com',
         license='BSD',
-        packages=['graphitealerts'],
+        # packages=['graphitealerts'],
         install_requires=[
             'Jinja2==2.6',
             'PyYAML==3.10',

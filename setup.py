@@ -12,7 +12,7 @@ def run_setup():
         version='0.0.1',
         description='',
         keywords = '',
-        url='http://github.com/ybrs/graphite-alerts',
+        url='http://github.com/ronmb/graphite-alerts',
         author='Aybars Badur',
         author_email='aybars.badur@gmail.com',
         license='BSD',
@@ -27,10 +27,7 @@ def run_setup():
             'python-simple-hipchat==0.1',
         ],
         test_suite='tests',
-        long_description=read('README.md'),
-        zip_safe=True,
-        classifiers=[
-        ],
+        # long_description=read('README.md'),
         entry_points="""
         [console_scripts]
         graphite-alerts=graphitealerts.worker:run

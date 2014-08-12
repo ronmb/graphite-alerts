@@ -30,6 +30,3 @@ setup(
     alerts-dev-server=graphitealerts.app:run
     """,
 )
-
-if __name__ == '__main__':
-    setuptools.run_setup()
